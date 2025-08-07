@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Media Page</title>
+  </head>
+  <body>
+    <h1>About Me</h1>
+    <p>
+      I am a student at the AltSchool Africa's School of Engineering, currently
+      enrolled in the Backend Engineering track. With a passion for technology
+      and problem-solving, I am committed to mastering the skills necessary to
+      excel in the field of software development, becoming a world class
+      software engineer.
+    </p>
+
+    <h2>My Picture</h2>
+    <picture>
+      <source media="(min-width: 1024px)" srcset="assets/Ali1.jfif" />
+      <source media="(min-width: 768px)" srcset="assets/Ali2.jpg" />
+      <source media="(max-width: 767px)" srcset="assets/Ali3.jpg" />
+      <img src="assets/Ali1.jfif" alt="Photo of Ali Olalekan" />
+    </picture>
+
+    <h2>Audio Message</h2>
+    <audio controls>
+      <source src="./assets/gentle-rainfall-16960.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+
+    <h2>Video</h2>
+    <iframe
+      width="560"
+      height="315"
+      src="https://youtu.be/XBC9N3t7Mm0?si=9IJI5WcZ3FOyzWoJ"
+      title="YouTube video"
+      frameborder="0"
+      allowfullscreen
+    ></iframe>
+  </body>
+</html>
